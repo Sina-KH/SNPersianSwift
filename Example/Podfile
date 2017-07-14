@@ -1,0 +1,6 @@
+use_frameworks!
+target 'SNPersianSwift_Tests' do
+  pod 'SNPersianSwift', :path => '../'
+  
+  
+end
