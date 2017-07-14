@@ -90,7 +90,7 @@ date.jalaali.minute
 date.jalaali.second
 ```
 
-### NSString Extension
+### String Extension
 
 ```sh
 myString.persianDigits
@@ -113,7 +113,7 @@ myString.persianChars
 - Input: ميخواهيم كاراكتر ها را فارسي کنیم
 - Output: میخواهیم کاراکتر ها را فارسی کنیم
 
-### NSNumber Extension
+### Int Extension
 
 ```sh
 12345.persianDigits
