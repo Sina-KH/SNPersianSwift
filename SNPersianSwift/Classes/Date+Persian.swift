@@ -8,7 +8,7 @@
 
 import Foundation
 
-extension Date {
+public extension Date {
 
     var jalaali: SNJalaaliSwift {
         get {
