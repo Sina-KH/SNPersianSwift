@@ -10,30 +10,36 @@ import Foundation
 
 extension String {
     
-    func persianDigits() -> String {
-        var string = String(self)!
-        for i in 0...9 {
-            string = string.replacingOccurrences(of: SNPersianSwiftConstants.arrEnglishDigits[i], with: SNPersianSwiftConstants.arrPersianDigits[i])
-            string = string.replacingOccurrences(of: SNPersianSwiftConstants.arrArabicDigits[i], with: SNPersianSwiftConstants.arrPersianDigits[i])
+    var persianDigits: String {
+        get {
+            var string = String(self)!
+            for i in 0...9 {
+                string = string.replacingOccurrences(of: SNPersianSwiftConstants.arrEnglishDigits[i], with: SNPersianSwiftConstants.arrPersianDigits[i])
+                string = string.replacingOccurrences(of: SNPersianSwiftConstants.arrArabicDigits[i], with: SNPersianSwiftConstants.arrPersianDigits[i])
+            }
+            return string
         }
-        return string
     }
     
-    func englishDigits() -> String {
-        var string = String(self)!
-        for i in 0...9 {
-            string = string.replacingOccurrences(of: SNPersianSwiftConstants.arrPersianDigits[i], with: SNPersianSwiftConstants.arrEnglishDigits[i])
-            string = string.replacingOccurrences(of: SNPersianSwiftConstants.arrArabicDigits[i], with: SNPersianSwiftConstants.arrEnglishDigits[i])
+    var englishDigits: String {
+        get {
+            var string = String(self)!
+            for i in 0...9 {
+                string = string.replacingOccurrences(of: SNPersianSwiftConstants.arrPersianDigits[i], with: SNPersianSwiftConstants.arrEnglishDigits[i])
+                string = string.replacingOccurrences(of: SNPersianSwiftConstants.arrArabicDigits[i], with: SNPersianSwiftConstants.arrEnglishDigits[i])
+            }
+            return string
         }
-        return string
     }
     
-    func persianChars() -> String {
-        var string = persianDigits()
-        string = string.replacingOccurrences(of: "ي", with: "ی")
-        string = string.replacingOccurrences(of: "ة", with: "ه")
-        string = string.replacingOccurrences(of: "ك", with: "ک")
-        return string
+    var persianChars: String {
+        get {
+            var string = persianDigits
+            string = string.replacingOccurrences(of: "ي", with: "ی")
+            string = string.replacingOccurrences(of: "ة", with: "ه")
+            string = string.replacingOccurrences(of: "ك", with: "ک")
+            return string
+        }
     }
     
 }

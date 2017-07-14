@@ -10,14 +10,16 @@ import Foundation
 
 extension Int {
 
-    func persianDigits() -> String {
-        let number = NSNumber(value: self as Int)
-        let formatter = NumberFormatter()
-        let locale = Locale(identifier: "fa")
-        formatter.groupingSeparator = "،"
-        formatter.locale = locale
-        formatter.numberStyle = .decimal
-        return formatter.string(from: number)!
+    var persianDigits: String {
+        get {
+            let number = NSNumber(value: self as Int)
+            let formatter = NumberFormatter()
+            let locale = Locale(identifier: "fa")
+            formatter.groupingSeparator = "،"
+            formatter.locale = locale
+            formatter.numberStyle = .decimal
+            return formatter.string(from: number)!
+        }
     }
 
 }

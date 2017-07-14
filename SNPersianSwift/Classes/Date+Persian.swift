@@ -77,7 +77,7 @@ extension Date {
         case .english:
             return relativeString;
         case .persian:
-            return relativeString.persianDigits()
+            return relativeString.persianDigits
         }
 
     }

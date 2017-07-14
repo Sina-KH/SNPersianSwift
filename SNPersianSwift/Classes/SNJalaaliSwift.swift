@@ -38,9 +38,9 @@ public class SNJalaaliSwift {
         case .englishFormat:
             return "\(year)/\(month)/\(day)"
         case .persianFormat:
-            return date(with:.englishFormat).persianDigits()
+            return date(with:.englishFormat).persianDigits
         case .persianTextFormat:
-            return "\(day) \(SNPersianSwiftConstants.arrJalaaliMonthes[month-1]) \(year)".persianDigits()
+            return "\(day) \(SNPersianSwiftConstants.arrJalaaliMonthes[month-1]) \(year)".persianDigits
         }
     }
     
@@ -59,11 +59,11 @@ public class SNJalaaliSwift {
         case .englishTextFormat:
             return "\(hour < 12 ? hour : hour - 12):\(strMinute) \(hour < 12 ? "AM" : "PM")"
         case .persianFormat:
-            return time(with:.englishFormat).persianDigits()
+            return time(with:.englishFormat).persianDigits
         case .persianTextFormat:
-            return "\(hour < 12 ? hour : hour - 12):\(strMinute) \(hour < 12 ? "ق.ظ" : "ب.ظ")".persianDigits()
+            return "\(hour < 12 ? hour : hour - 12):\(strMinute) \(hour < 12 ? "ق.ظ" : "ب.ظ")".persianDigits
         case .persianLongTextFormat:
-            return "\(hour < 12 ? hour : hour - 12):\(strMinute) \(hour < 12 ? "قبل‌ازظهر" : "بعدازظهر")".persianDigits()
+            return "\(hour < 12 ? hour : hour - 12):\(strMinute) \(hour < 12 ? "قبل‌ازظهر" : "بعدازظهر")".persianDigits
         }
     }
     

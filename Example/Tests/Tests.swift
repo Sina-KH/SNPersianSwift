@@ -45,12 +45,12 @@ class Tests: XCTestCase {
         XCTAssertEqual(jalaali.dateTime(withDateIn: .persianTextFormat, timeIn: .persianLongTextFormat), "۱۶ فروردین ۱۳۷۵ ۳:۰۰ بعدازظهر")
         
         // String tests
-        XCTAssertEqual("0,1,2,3,4,5,6,7,8,9".persianDigits(), "۰,۱,۲,۳,۴,۵,۶,۷,۸,۹")
-        XCTAssertEqual("۰,۱,۲,۳,۴,۵,۶,۷,۸,۹".englishDigits(), "0,1,2,3,4,5,6,7,8,9")
-        XCTAssertEqual("ي,ة,ك".persianChars(), "ی,ه,ک")
+        XCTAssertEqual("0,1,2,3,4,5,6,7,8,9".persianDigits, "۰,۱,۲,۳,۴,۵,۶,۷,۸,۹")
+        XCTAssertEqual("۰,۱,۲,۳,۴,۵,۶,۷,۸,۹".englishDigits, "0,1,2,3,4,5,6,7,8,9")
+        XCTAssertEqual("ي,ة,ك".persianChars, "ی,ه,ک")
 
         // Int tests
-        XCTAssertEqual(12345.persianDigits(), "۱۲،۳۴۵");
+        XCTAssertEqual(12345.persianDigits, "۱۲،۳۴۵");
     }
     
     func testPerformanceExample() {
