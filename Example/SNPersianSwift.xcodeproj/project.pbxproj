@@ -9,18 +9,28 @@
 /* Begin PBXBuildFile section */
 		48497C53F72C476AB207BE74 /* Pods_SNPersianSwift_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A3C72908B8EA6BCA11780B9 /* Pods_SNPersianSwift_Tests.framework */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		8956AD9A1F18EBDB0028FE13 /* String+Persian.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8956AD991F18EBDB0028FE13 /* String+Persian.swift */; };
+		8956AD9E1F18ED0C0028FE13 /* SNPersianSwiftConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8956AD9D1F18ED0C0028FE13 /* SNPersianSwiftConstants.swift */; };
+		8956ADA01F18EECB0028FE13 /* Int+Persian.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8956AD9F1F18EECA0028FE13 /* Int+Persian.swift */; };
+		8956ADA21F18EF6C0028FE13 /* Date+Persian.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8956ADA11F18EF6C0028FE13 /* Date+Persian.swift */; };
+		8956ADA41F18EFD40028FE13 /* SNJalaaliSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8956ADA31F18EFD40028FE13 /* SNJalaaliSwift.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		12087A28890D5A1238F8207D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		3CE60BB8041419837F5C0019 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		12087A28890D5A1238F8207D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		3CE60BB8041419837F5C0019 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		50009A82CD49EDA1EC7B163B /* Pods-SNPersianSwift_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SNPersianSwift_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SNPersianSwift_Tests/Pods-SNPersianSwift_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* SNPersianSwift_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SNPersianSwift_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
+		8956AD991F18EBDB0028FE13 /* String+Persian.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "String+Persian.swift"; path = "../SNPersianSwift/Classes/String+Persian.swift"; sourceTree = "<group>"; };
+		8956AD9D1F18ED0C0028FE13 /* SNPersianSwiftConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SNPersianSwiftConstants.swift; path = ../SNPersianSwift/Classes/SNPersianSwiftConstants.swift; sourceTree = "<group>"; };
+		8956AD9F1F18EECA0028FE13 /* Int+Persian.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Int+Persian.swift"; path = "../SNPersianSwift/Classes/Int+Persian.swift"; sourceTree = "<group>"; };
+		8956ADA11F18EF6C0028FE13 /* Date+Persian.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Date+Persian.swift"; path = "../SNPersianSwift/Classes/Date+Persian.swift"; sourceTree = "<group>"; };
+		8956ADA31F18EFD40028FE13 /* SNJalaaliSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SNJalaaliSwift.swift; path = ../SNPersianSwift/Classes/SNJalaaliSwift.swift; sourceTree = "<group>"; };
 		9A3C72908B8EA6BCA11780B9 /* Pods_SNPersianSwift_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SNPersianSwift_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2FD8894396FFF3631A50464 /* Pods-SNPersianSwift_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SNPersianSwift_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SNPersianSwift_Tests/Pods-SNPersianSwift_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		D477802970A70D5C0B85E42E /* SNPersianSwift.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SNPersianSwift.podspec; path = ../SNPersianSwift.podspec; sourceTree = "<group>"; };
+		D477802970A70D5C0B85E42E /* SNPersianSwift.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SNPersianSwift.podspec; path = ../SNPersianSwift.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +57,7 @@
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
+				8956AD981F18EBB80028FE13 /* SNPersianSwift */,
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
@@ -90,6 +101,18 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
+		8956AD981F18EBB80028FE13 /* SNPersianSwift */ = {
+			isa = PBXGroup;
+			children = (
+				8956ADA11F18EF6C0028FE13 /* Date+Persian.swift */,
+				8956AD9F1F18EECA0028FE13 /* Int+Persian.swift */,
+				8956AD991F18EBDB0028FE13 /* String+Persian.swift */,
+				8956ADA31F18EFD40028FE13 /* SNJalaaliSwift.swift */,
+				8956AD9D1F18ED0C0028FE13 /* SNPersianSwiftConstants.swift */,
+			);
+			name = SNPersianSwift;
+			sourceTree = "<group>";
+		};
 		B6EFAEA0C2B0A5A243CA594B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -131,14 +154,9 @@
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
-					607FACCF1AFB9204008FA782 = {
-						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0820;
-					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
 						LastSwiftMigration = 0820;
-						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
 				};
 			};
@@ -223,7 +241,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8956ADA01F18EECB0028FE13 /* Int+Persian.swift in Sources */,
+				8956ADA41F18EFD40028FE13 /* SNJalaaliSwift.swift in Sources */,
+				8956ADA21F18EF6C0028FE13 /* Date+Persian.swift in Sources */,
 				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
+				8956AD9A1F18EBDB0028FE13 /* String+Persian.swift in Sources */,
+				8956AD9E1F18ED0C0028FE13 /* SNPersianSwiftConstants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
