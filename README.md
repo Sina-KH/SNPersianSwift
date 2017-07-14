@@ -14,15 +14,6 @@ it, simply add the following line to your Podfile:
 pod "SNPersianSwift"
 ```
 
-## Installation
-
-SNPersianSwift is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:
-
-```ruby
-pod "SNPersianSwift"
-```
-
 ## Requirements
 
 - iOS 8.0+
