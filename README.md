@@ -5,6 +5,30 @@
 [![License](https://img.shields.io/cocoapods/l/SNPersianSwift.svg?style=flat)](http://cocoapods.org/pods/SNPersianSwift)
 [![Platform](https://img.shields.io/cocoapods/p/SNPersianSwift.svg?style=flat)](http://cocoapods.org/pods/SNPersianSwift)
 
+## Installation
+
+SNPersianSwift is available through [CocoaPods](http://cocoapods.org). To install
+it, simply add the following line to your Podfile:
+
+```ruby
+pod "SNPersianSwift"
+```
+
+## Installation
+
+SNPersianSwift is available through [CocoaPods](http://cocoapods.org). To install
+it, simply add the following line to your Podfile:
+
+```ruby
+pod "SNPersianSwift"
+```
+
+## Requirements
+
+- iOS 8.0+
+- Xcode 8.x
+- Swift 3.x
+
 ## Examples
 
 First of all, don't forget to import SNPersianSwift in your swift file
@@ -109,15 +133,6 @@ myString.persianChars
 
 ```sh
 myString.englishDigits
-```
-
-## Installation
-
-SNPersianSwift is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:
-
-```ruby
-pod "SNPersianSwift"
 ```
 
 ## Author
