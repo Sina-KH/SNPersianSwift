@@ -28,7 +28,7 @@ public class SNJalaaliSwift {
         second  = components.second!
     }
     
-    enum SNJalaaliSwiftDateFormat: Int {
+    public enum SNJalaaliSwiftDateFormat: Int {
         case englishFormat      = 0
         case persianFormat      = 1
         case persianTextFormat  = 2
