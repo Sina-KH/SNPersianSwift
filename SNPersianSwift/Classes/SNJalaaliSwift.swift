@@ -33,7 +33,7 @@ public class SNJalaaliSwift {
         case persianFormat      = 1
         case persianTextFormat  = 2
     }
-    func date(with format: SNJalaaliSwiftDateFormat) -> String {
+    public func date(with format: SNJalaaliSwiftDateFormat) -> String {
         switch format {
         case .englishFormat:
             return "\(year)/\(month)/\(day)"
@@ -51,7 +51,7 @@ public class SNJalaaliSwift {
         case persianTextFormat      = 3
         case persianLongTextFormat  = 4
     }
-    func time(with format: SNJalaaliSwiftTimeFormat) -> String {
+    public func time(with format: SNJalaaliSwiftTimeFormat) -> String {
         let strMinute = minute < 10 ? "0\(minute)" : String(minute)
         switch format {
         case .englishFormat:
@@ -67,7 +67,7 @@ public class SNJalaaliSwift {
         }
     }
     
-    func dateTime(withDateIn dateFormat: SNJalaaliSwiftDateFormat, timeIn timeFormat: SNJalaaliSwiftTimeFormat, seperator: String = "") -> String {
+    public func dateTime(withDateIn dateFormat: SNJalaaliSwiftDateFormat, timeIn timeFormat: SNJalaaliSwiftTimeFormat, seperator: String = "") -> String {
         var strSeperator = " \(seperator) "
         if strSeperator.characters.count == 2 {
             strSeperator = " "

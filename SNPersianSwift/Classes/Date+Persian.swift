@@ -10,7 +10,7 @@ import Foundation
 
 public extension Date {
 
-    var jalaali: SNJalaaliSwift {
+    public var jalaali: SNJalaaliSwift {
         get {
             return SNJalaaliSwift(date: self)
         }
