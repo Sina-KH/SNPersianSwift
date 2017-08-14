@@ -29,9 +29,9 @@ public class SNJalaaliSwift {
     }
     
     public enum SNJalaaliSwiftDateFormat: Int {
-        case englishFormat      = 0
-        case persianFormat      = 1
-        case persianTextFormat  = 2
+        public case englishFormat      = 0
+        public case persianFormat      = 1
+        public case persianTextFormat  = 2
     }
     public func date(with format: SNJalaaliSwiftDateFormat) -> String {
         switch format {
@@ -45,11 +45,11 @@ public class SNJalaaliSwift {
     }
     
     public enum SNJalaaliSwiftTimeFormat: Int {
-        case englishFormat          = 0
-        case englishTextFormat      = 1
-        case persianFormat          = 2
-        case persianTextFormat      = 3
-        case persianLongTextFormat  = 4
+        public case englishFormat          = 0
+        public case englishTextFormat      = 1
+        public case persianFormat          = 2
+        public case persianTextFormat      = 3
+        public case persianLongTextFormat  = 4
     }
     public func time(with format: SNJalaaliSwiftTimeFormat) -> String {
         let strMinute = minute < 10 ? "0\(minute)" : String(minute)
