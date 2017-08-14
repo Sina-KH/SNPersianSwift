@@ -44,7 +44,7 @@ public class SNJalaaliSwift {
         }
     }
     
-    enum SNJalaaliSwiftTimeFormat: Int {
+    public enum SNJalaaliSwiftTimeFormat: Int {
         case englishFormat          = 0
         case englishTextFormat      = 1
         case persianFormat          = 2
